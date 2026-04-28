@@ -1,0 +1,15 @@
+name: hola a todos 
+
+ on: [push]
+
+  jobs:
+
+   saludar:
+
+     runs-on: ubuntu-laters
+
+      steps:
+
+          - name: muestra el mensaje al grupo 1-2
+
+               run: echo "Hola a todos"
